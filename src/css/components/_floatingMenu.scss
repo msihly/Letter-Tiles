@@ -1,0 +1,36 @@
+.floating-menu {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    padding: 0.5rem;
+    z-index: 10;
+    box-sizing: border-box;
+
+    .circle-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        width: 4rem;
+        height: 4rem;
+        background-color: $theme-accent-color;
+        color: $theme-text-color;
+        cursor: pointer;
+        transition: 0.2s all ease-in-out;
+
+        &:hover { background-color: $theme-accent-highlight; }
+
+        &:not(:last-of-type) { margin-bottom: 0.5rem; }
+
+        &.inactive { filter: saturate(0); }
+
+        img {
+            width: 1.2rem;
+            filter: invert(1);
+        }
+    }
+}

@@ -42,3 +42,24 @@ export const observerUpdated = (id, viewState) => ({
     type: types.OBSERVER_UPDATED,
     payload: { id, viewState }
 });
+
+/******************** TILES ********************/
+export const tileCreated = ({ id, content, classes, left, top }) => ({
+    type: types.TILE_CREATED,
+    payload: { id, content, classes, left, top }
+});
+
+export const tileDeleted = (id) => ({
+    type: types.TILE_DELETED,
+    payload: { id }
+});
+
+export const tilesDeleted = () => ({
+    type: types.TILES_DELETED,
+    payload: { }
+});
+
+export const tileUpdated = ({ id, content, classes, left, top }) => ({
+    type: types.TILE_UPDATED,
+    payload: { id, content, classes, left, top }
+});

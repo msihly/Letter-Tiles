@@ -7,7 +7,13 @@
 @include font("Roboto", 700);
 
 // COMPONENTS
+@import "./components/alert";
+@import "./components/draggable";
+@import "./components/floatingMenu";
 @import "./components/modal";
+@import "./components/scrollbar";
+@import "./components/tabs";
+@import "./components/tiles";
 
 // VIEWS
 @import "./common";
