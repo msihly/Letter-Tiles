@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/letter-tiles/static/css/main.4baa7cae.chunk.css",
-    "main.js": "/letter-tiles/static/js/main.30417b61.chunk.js",
-    "main.js.map": "/letter-tiles/static/js/main.30417b61.chunk.js.map",
+    "main.css": "/letter-tiles/static/css/main.8e35b9dd.chunk.css",
+    "main.js": "/letter-tiles/static/js/main.34d2d847.chunk.js",
+    "main.js.map": "/letter-tiles/static/js/main.34d2d847.chunk.js.map",
     "runtime-main.js": "/letter-tiles/static/js/runtime-main.553c8552.js",
     "runtime-main.js.map": "/letter-tiles/static/js/runtime-main.553c8552.js.map",
-    "static/js/2.707d03e0.chunk.js": "/letter-tiles/static/js/2.707d03e0.chunk.js",
-    "static/js/2.707d03e0.chunk.js.map": "/letter-tiles/static/js/2.707d03e0.chunk.js.map",
+    "static/js/2.3f698e9d.chunk.js": "/letter-tiles/static/js/2.3f698e9d.chunk.js",
+    "static/js/2.3f698e9d.chunk.js.map": "/letter-tiles/static/js/2.3f698e9d.chunk.js.map",
     "index.html": "/letter-tiles/index.html",
-    "precache-manifest.70ec43589b3177bc86618ee1388570d2.js": "/letter-tiles/precache-manifest.70ec43589b3177bc86618ee1388570d2.js",
+    "precache-manifest.57c19d8246bf6a3d66d52bf9e8bc3346.js": "/letter-tiles/precache-manifest.57c19d8246bf6a3d66d52bf9e8bc3346.js",
     "service-worker.js": "/letter-tiles/service-worker.js",
-    "static/css/main.4baa7cae.chunk.css.map": "/letter-tiles/static/css/main.4baa7cae.chunk.css.map",
-    "static/js/2.707d03e0.chunk.js.LICENSE.txt": "/letter-tiles/static/js/2.707d03e0.chunk.js.LICENSE.txt",
+    "static/css/main.8e35b9dd.chunk.css.map": "/letter-tiles/static/css/main.8e35b9dd.chunk.css.map",
+    "static/js/2.3f698e9d.chunk.js.LICENSE.txt": "/letter-tiles/static/js/2.3f698e9d.chunk.js.LICENSE.txt",
     "static/media/index.scss": "/letter-tiles/static/media/roboto-700.adcde98f.woff",
-    "static/media/grid.svg": "/letter-tiles/static/media/grid.91926935.svg",
-    "static/media/trashcan.svg": "/letter-tiles/static/media/trashcan.11a7a757.svg"
+    "static/media/grid.svg": "/letter-tiles/static/media/grid.1415287f.svg",
+    "static/media/paint-palette.svg": "/letter-tiles/static/media/paint-palette.12c7392d.svg",
+    "static/media/trashcan.svg": "/letter-tiles/static/media/trashcan.663bf4b6.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.553c8552.js",
-    "static/js/2.707d03e0.chunk.js",
-    "static/css/main.4baa7cae.chunk.css",
-    "static/js/main.30417b61.chunk.js"
+    "static/js/2.3f698e9d.chunk.js",
+    "static/css/main.8e35b9dd.chunk.css",
+    "static/js/main.34d2d847.chunk.js"
   ]
 }

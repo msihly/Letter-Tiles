@@ -1,35 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cf9cf9782a4569545e96dff22fa760c3",
+    "revision": "0bdd6505de136f2ef95c5683a65a3ba7",
     "url": "/letter-tiles/index.html"
   },
   {
-    "revision": "08f67dc25a4c75ff70c8",
-    "url": "/letter-tiles/static/css/main.4baa7cae.chunk.css"
+    "revision": "42a6f99d85f1819f6973",
+    "url": "/letter-tiles/static/css/main.8e35b9dd.chunk.css"
   },
   {
-    "revision": "4985146b9908e373cf7d",
-    "url": "/letter-tiles/static/js/2.707d03e0.chunk.js"
+    "revision": "dfaafcd746f2a92b11e5",
+    "url": "/letter-tiles/static/js/2.3f698e9d.chunk.js"
   },
   {
     "revision": "9b318b6fb13190fe82c0677e9264b3c7",
-    "url": "/letter-tiles/static/js/2.707d03e0.chunk.js.LICENSE.txt"
+    "url": "/letter-tiles/static/js/2.3f698e9d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "08f67dc25a4c75ff70c8",
-    "url": "/letter-tiles/static/js/main.30417b61.chunk.js"
+    "revision": "42a6f99d85f1819f6973",
+    "url": "/letter-tiles/static/js/main.34d2d847.chunk.js"
   },
   {
     "revision": "3f2ebbab80b0c0292d65",
     "url": "/letter-tiles/static/js/runtime-main.553c8552.js"
   },
   {
-    "revision": "70bf025acb5657161dd5f2742bc16a1c",
-    "url": "/letter-tiles/static/media/eraser.70bf025a.svg"
+    "revision": "e304b5fc454f20fecd178ef113146c77",
+    "url": "/letter-tiles/static/media/eraser.e304b5fc.svg"
   },
   {
-    "revision": "9192693563353b2290bca7b191d245cf",
-    "url": "/letter-tiles/static/media/grid.91926935.svg"
+    "revision": "1415287f92ec431ac8913387aea7d7b0",
+    "url": "/letter-tiles/static/media/grid.1415287f.svg"
+  },
+  {
+    "revision": "12c7392d054f6102e0e9f870dd01ae98",
+    "url": "/letter-tiles/static/media/paint-palette.12c7392d.svg"
   },
   {
     "revision": "479970ffb74f2117317f9d24d9e317fe",
@@ -56,7 +60,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/letter-tiles/static/media/roboto-700.adcde98f.woff"
   },
   {
-    "revision": "11a7a7571f494fa5526eec201cbb50d0",
-    "url": "/letter-tiles/static/media/trashcan.11a7a757.svg"
+    "revision": "663bf4b6155acaa78612ed30925f665c",
+    "url": "/letter-tiles/static/media/trashcan.663bf4b6.svg"
   }
 ]);
