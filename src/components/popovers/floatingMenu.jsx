@@ -1,22 +1,24 @@
-import React, { Children } from "react";
+import React, { Children, cloneElement } from "react";
 
-const FloatingMenu = ({ children }) => {
-    const getClasses = (isActive, className) => {
-        let classes = "circle-button";
-        if (isActive === false) classes += " inactive";
-        if (className) classes += " " + className;
-        return classes;
-    }
+export const CircleButton = ({ children, classes, isActive, onClick, title }) => {
+    const getClasses = () => {
+        let className = "circle-button";
+        if (isActive === false) className += " inactive";
+        if (classes) className += " " + classes;
+        return className;
+    };
 
     return (
-        <div className="floating-menu">
-            {children && Children.map(children, ({ props: { children, isActive, className, title, onClick }}, idx) => (
-                <div key={idx} title={title} onClick={onClick} className={getClasses(isActive, className)}>
-                    {children}
-                </div>
-            ))}
+        <div title={title} className={getClasses()} onClick={onClick}>
+            {children}
         </div>
     );
 };
+
+const FloatingMenu = ({ children }) => (
+    <div className="floating-menu">
+        {children && Children.map(children, (child, idx) => cloneElement(child, { key: idx }))}
+    </div>
+);
 
 export default FloatingMenu;

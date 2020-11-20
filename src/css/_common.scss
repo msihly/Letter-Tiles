@@ -2,7 +2,8 @@ html, body {
     margin: 0;
     min-height: 100vh;
     height: 100%;
-    background-color: $theme-bg-color;
+    background-color: var(--background-color);
+    color: var(--text-color);
     font-family: "Roboto", Arial, Helvetica, sans-serif;
     font-size: 18px;
     font-weight: 500;
@@ -38,11 +39,12 @@ th, td { padding: 0.35em; }
     }
 }
 
-h1, h2, h3 { margin: 0.5rem 0; }
+h1, h2, h3 {
+    margin: 0.5rem 0;
+    font-weight: 400;
+}
 
 h4, h5, h6 { margin: 0 0 0.5rem 0; }
-
-p, span { color: var(--foreground-color); }
 
 p {
     margin: 0;
@@ -61,7 +63,6 @@ a {
 
 button {
     width: fit-content;
-    float: left;
     padding: 0.5rem 1rem;
     margin: 0.4rem 0.3rem;
     border: none;
@@ -84,7 +85,7 @@ button {
     font-size: 16px;
     font-weight: 600;
     font-family: "Roboto";
-    color: var(--foreground-color);
+    color: var(--text-color);
     border: 2px solid var(--foreground-color);
     border-radius: 0;
 
@@ -92,15 +93,15 @@ button {
 
     &:hover {
         border-radius: 3px;
-        background-color: $theme-bg-color;
-        border-color: $theme-bg-color;
+        background-color: var(--background-color);
+        border-color: var(--background-color);
         color: white;
     }
 }
 
 .text-btn {
     display: inline;
-    color: $theme-text-color;
+    color: var(--foreground-color);
     cursor: pointer;
 }
 

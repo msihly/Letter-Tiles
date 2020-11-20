@@ -2,14 +2,14 @@
     width: 0.5rem;
     height: 0.5rem;
     border-radius: 0.8rem;
-    background: $black-2;
+    background: rgba($black-2, 0.4);
 
-    &-track, &-corner { background: rgba($black-2, 0.4); }
+    &-track, &-corner { background: transparent; }
 
     &-thumb {
         border-radius: 0.8rem;
-        background: $grey-1;
+        background: rgba($grey-1, 0.4);
 
-        &:hover { background: $grey-2; }
+        &:hover { background: rgba($black-3, 0.6); }
     }
 }

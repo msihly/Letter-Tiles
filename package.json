@@ -1,7 +1,7 @@
 {
 	"name": "letter-tiles",
-	"version": "0.1.0",
-	"homepage": "http://msihly.github.io/letter-tiles",
+	"version": "0.2.0",
+	"homepage": "https://msihly.github.io/letter-tiles",
 	"private": true,
 	"dependencies": {
 		"react": "^16.14.0",

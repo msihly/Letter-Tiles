@@ -1,0 +1,119 @@
+.color {
+    &-settings {
+        width: 23rem;
+        height: 35.5rem;
+
+        > .column, .tab-content { overflow-y: auto; }
+    }
+
+    &-picker {
+        width: 20rem;
+        padding: 0.5rem;
+        border-radius: 0.4rem;
+        background-color: var(--background-color);
+    }
+
+    &-shades {
+        &:first-of-type { border-radius: 0 0 0.4rem 0.4rem; }
+
+        &:last-of-type { border-radius: 0.4rem 0.4rem 0 0; }
+
+        > span {
+            border: 1px solid rgba($black-1, 0.7);
+        }
+    }
+
+    &-themes {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        padding: 0 0.8rem;
+        width: inherit;
+        box-sizing: border-box;
+
+        .theme-tile {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 2px solid transparent;
+            cursor: pointer;
+
+            &.active {
+                border-color: var(--accent-fill-color);
+                border-radius: 0.4rem;
+            }
+
+            .theme-icon {
+                position: relative;
+                border-radius: 0.4rem;
+                margin: 0.5rem;
+                border: 1px solid var(--background-color-highlight);
+                width: 8rem;
+                height: 8rem;
+                background-color: var(--background-color);
+
+                &::before, &::after, .letter-tile { position: absolute; }
+
+                &::before {
+                    content: attr(title);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 0.4rem 0.4rem 0 0;
+                    width: 100%;
+                    height: 20%;
+                    font-weight: 400;
+                    background-color: var(--foreground-color);
+                    color: var(--text-color);
+                }
+
+                &::after {
+                    content: "#{$symbol-bullet $symbol-bullet $symbol-bullet}";
+                    top: 20%;
+                    bottom: 0;
+                    left: 5%;
+                    display: flex;
+                    flex-flow: column wrap;
+                    justify-content: center;
+                    width: 1rem;
+                    color: var(--accent-color);
+                    font-size: 3em;
+                    line-height: 0.5em;
+                }
+
+                .letter-tile {
+                    @extend .tile;
+                    top: 20%;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    margin: auto;
+                    width: 40%;
+                    height: 40%;
+                }
+            }
+
+            p { margin-bottom: 0.4rem; }
+        }
+    }
+}
+
+.slider {
+    border-radius: 0.2rem;
+	width: 100%;
+    height: 0.5rem;
+	appearance: none;
+	outline: 0;
+
+	&::-webkit-slider-thumb {
+		width: 1rem;
+		height: 1rem;
+        border: 1px solid rgba($black-1, 0.7);
+		border-radius: 50%;
+        background-color: white;
+		appearance: none;
+		cursor: pointer;
+	}
+
+	&.hue { background: linear-gradient(to right, #f00 0%, #ff0 17%, #0f0 33%, #0ff 50%, #00f 67%, #f0f 83%, #f00 100%); }
+}

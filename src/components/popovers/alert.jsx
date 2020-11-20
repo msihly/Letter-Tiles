@@ -11,7 +11,9 @@ const Alert = ({ children, id, modalClasses, iconClasses, icon, heading, subhead
     return (
         <Modal id={id} classes={modalClasses ?? null}>
             <div className="alert">
-                { icon && <img src={icon} className={`alert-icon ${iconClasses ?? ""}`} alt="" /> }
+                { icon && typeof icon === "string" ?
+                    <img src={icon} className={`alert-icon ${iconClasses ?? ""}`} alt="" />
+                    : cloneElement(icon, { className: `alert-icon ${iconClasses ?? ""}`}) }
                 <div className="alert-heading">{heading}</div>
                 { subheading && <div className="alert-subheading">{subheading}</div> }
                 <div className="row j-center">

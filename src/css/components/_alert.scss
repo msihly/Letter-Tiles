@@ -5,16 +5,18 @@
         height: 4rem;
         width: 4rem;
         padding: 1rem 0;
+
+        &.accent-fill { fill: var(--accent-fill-color); }
+
+        &.background-highlight { fill: var(--background-color-highlight); }
     }
 
-    &-heading, &-subheading {
-        padding-bottom: 0.5em;
-    }
+    &-heading, &-subheading { padding-bottom: 0.5em; }
 
     &-heading {
         font-size: 1.2em;
         font-weight: 500;
-        color: white;
+        color: var(--text-color);
     }
 
     &-subheading {
