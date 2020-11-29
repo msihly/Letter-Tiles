@@ -6,10 +6,10 @@ const CHAR_SETS = new Map([
         ["ch", "sh", "th", "wh", "ph", "gh", "ng", "ck", "dge", "tch"],
     ]],
     ["Vowel Teams", [
-        ["ea", "ai", "oi", "ou", "ee", "ay", "oo", "oa", "ow", "oe", "eu", "ew", "ue", "ui", "eigh", "ough", "aigh", "igh", "oy", "au", "aw"],
+        ["ea", "ai", "oi", "ou", "ee", "ay", "oo", "oa", "ow", "oe", "eu", "ew", "ue", "ui", "oy", "au", "aw", "eigh", "ough", "aigh", "igh"],
     ]],
     ["Vowel-R Combinations", [
-        ["er", "ar", "or", "ir", "ur", "oar", "air", "our", "ore", "ear", "eer", "ure", "are", "ere", "ire", "war", "wor"],
+        ["er", "ar", "or", "ir", "ur", "oar", "air", "our", "ore", "ear", "eer", "ure", "are", "ere", "ire"],
     ]],
     ["Special Consonant Teams", [
         ["ff", "zz", "ll", "ss", "gn", "kn", "lk", "eigh", "gh", "wr", "mb", "mn", "que", "gu"],
@@ -18,10 +18,10 @@ const CHAR_SETS = new Map([
         ["ild", "ost", "old", "olt", "ind", "ing", "ang", "ung", "ink", "ank", "unk", "all"]
     ]],
     ["Prefixes", [
-        ["un", "re", "mis", "dis", "in", "ex", "con", "com", "per"],
+        ["un", "re", "mis", "in", "ex", "pre", "non", "semi", "anti"],
     ]],
     ["Derivational Suffixes", [
-        ["y", "ish", "able", "less", "ness", "ful", "ly", "ment", "tion", "ive", "age", "ic", "ity", "ible"],
+        ["y", "less", "ness", "ful", "ly", "ment", "hood", "er", "or", "en"],
     ]],
     ["Inflectional Suffixes", [
         ["s", "'s", "ed", "ing", "en", "er", "est"],
