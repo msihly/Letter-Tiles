@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/letter-tiles/static/css/main.40f1db33.chunk.css",
-    "main.js": "/letter-tiles/static/js/main.826a67ab.chunk.js",
-    "main.js.map": "/letter-tiles/static/js/main.826a67ab.chunk.js.map",
+    "main.js": "/letter-tiles/static/js/main.2fd4ac4d.chunk.js",
+    "main.js.map": "/letter-tiles/static/js/main.2fd4ac4d.chunk.js.map",
     "runtime-main.js": "/letter-tiles/static/js/runtime-main.553c8552.js",
     "runtime-main.js.map": "/letter-tiles/static/js/runtime-main.553c8552.js.map",
     "static/js/2.a0a1b9d1.chunk.js": "/letter-tiles/static/js/2.a0a1b9d1.chunk.js",
     "static/js/2.a0a1b9d1.chunk.js.map": "/letter-tiles/static/js/2.a0a1b9d1.chunk.js.map",
     "index.html": "/letter-tiles/index.html",
-    "precache-manifest.ce3799ddc5454679f2efe170a8cd8d40.js": "/letter-tiles/precache-manifest.ce3799ddc5454679f2efe170a8cd8d40.js",
+    "precache-manifest.5bc4babbc61c0e3d2b5447ddbcc87572.js": "/letter-tiles/precache-manifest.5bc4babbc61c0e3d2b5447ddbcc87572.js",
     "service-worker.js": "/letter-tiles/service-worker.js",
     "static/css/main.40f1db33.chunk.css.map": "/letter-tiles/static/css/main.40f1db33.chunk.css.map",
     "static/js/2.a0a1b9d1.chunk.js.LICENSE.txt": "/letter-tiles/static/js/2.a0a1b9d1.chunk.js.LICENSE.txt",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.553c8552.js",
     "static/js/2.a0a1b9d1.chunk.js",
     "static/css/main.40f1db33.chunk.css",
-    "static/js/main.826a67ab.chunk.js"
+    "static/js/main.2fd4ac4d.chunk.js"
   ]
 }
