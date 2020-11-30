@@ -6,7 +6,7 @@ const CHAR_SETS = new Map([
         ["ch", "sh", "th", "wh", "ph", "gh", "ng", "ck", "dge", "tch"],
     ]],
     ["Vowel Teams", [
-        ["ea", "ai", "oi", "ou", "ee", "ay", "oo", "oa", "ow", "oe", "eu", "ew", "ue", "ui", "oy", "au", "aw", "eigh", "ough", "aigh", "igh"],
+        ["ea", "ai", "oi", "ou", "ee", "ay", "oo", "oa", "ow", "oe", "eu", "ew", "ue", "ui", "oy", "au", "aw", "eigh", "ough", "igh"],
     ]],
     ["Vowel-R Combinations", [
         ["er", "ar", "or", "ir", "ur", "oar", "air", "our", "ore", "ear", "eer", "ure", "are", "ere", "ire"],
