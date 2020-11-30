@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "270c6691f097b8a490af5611e27b4ed4",
+    "revision": "a1ebfaf0767d09492e0ec6daec753ea7",
     "url": "/letter-tiles/index.html"
   },
   {
