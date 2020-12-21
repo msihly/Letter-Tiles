@@ -29,9 +29,7 @@
 
         &:hover { background-color: var(--foreground-color-highlight); }
 
-        @media #{$media-500-wh} {
-            padding: 0.5em;
-        }
+        @media #{$media-500-wh} { padding: 0.5em; }
 
         &.active {
             @media #{$media-500-wh} { max-width: fit-content; }

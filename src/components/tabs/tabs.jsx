@@ -1,5 +1,4 @@
-import React, { Children, cloneElement, useState } from "react";
-import { useEffect } from "react";
+import React, { Children, cloneElement, useEffect, useState } from "react";
 import { SideScroller } from "./";
 
 export const Tab = ({ index, isActive, label, switchTab }) => (

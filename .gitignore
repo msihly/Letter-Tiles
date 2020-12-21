@@ -13,12 +13,16 @@ build/
 
 # misc
 .DS_Store
+npm-debug.log*
+
 *.env
 *.env.*
-npm-debug.log*
 .vscode/
+
 images/_components/
 src/media/_components/
 *.psd
 *.ai
 *.db
+
+public/analytics.js
