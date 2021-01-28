@@ -4,9 +4,9 @@ import { Tab, Tabs } from "../tabs";
 
 const TileBar = ({ hasElkonin, isUpperCase }) => {
     const getTiles = (charSet) => {
-        let tiles = charSet;
-        if (isUpperCase) tiles = tiles.map(c => c.toUpperCase());
-        return tiles.map(e => <Tile key={e} id={e} content={e} isSource />);
+        const tiles = (isUpperCase ? charSet.map(c => c.toUpperCase()) : charSet).map(t => <Tile key={t} id={t} content={t} isSource />);
+        tiles.push(<Tile key="heart" id="heart" classes="heart" tileColor="#e6e6e6" isSource />)
+        return tiles;
     };
 
     return (

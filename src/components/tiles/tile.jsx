@@ -4,10 +4,10 @@ import * as actions from "../../store/actions";
 import { useDrag } from "react-dnd";
 import { itemTypes, snapToGrid } from "../draggable";
 
-const Tile = ({ id, content, classes, isSource, hasSnapToGrid, handleClick }) => {
+const Tile = ({ id, content, classes, fontColor, isSource, hasSnapToGrid, handleClick, tileColor }) => {
     const dispatch = useDispatch();
 
-    const { left, top, backgroundColor, textColor } = useSelector(state => Object(state.tiles.find(tile => tile.id === id)));
+    const { left, top, zIndex, backgroundColor, textColor } = useSelector(state => Object(state.tiles.find(tile => tile.id === id)));
 
     const getClasses = () => {
         let className = "tile";
@@ -19,9 +19,10 @@ const Tile = ({ id, content, classes, isSource, hasSnapToGrid, handleClick }) =>
     };
 
     const getStyle = () => ({
-        backgroundColor: isSource ? null : `hsl(${backgroundColor.hue}deg, ${backgroundColor.saturation}%, ${backgroundColor.lightness}%)`,
-        color: isSource ? null : `hsl(${textColor.hue}deg, ${textColor.saturation}%, ${textColor.lightness}%)`,
+        backgroundColor: isSource ? null : tileColor ?? `hsl(${backgroundColor.hue}deg, ${backgroundColor.saturation}%, ${backgroundColor.lightness}%)`,
+        color: isSource ? null : fontColor ?? `hsl(${textColor.hue}deg, ${textColor.saturation}%, ${textColor.lightness}%)`,
         transform: `translate(${left}px, ${top}px)`,
+        zIndex
     });
 
     const [{ isDragging }, drag, preview] = useDrag({
@@ -39,12 +40,13 @@ const Tile = ({ id, content, classes, isSource, hasSnapToGrid, handleClick }) =>
                     classes: item.classes ?? null,
                     left,
                     top,
+                    zIndex: dropResult.zIndex
                 };
 
                 dispatch(isSource ? actions.tileCreated({
                     ...itemProps,
-                    backgroundColor: JSON.parse(localStorage.getItem("--tile-background-color")),
-                    textColor: JSON.parse(localStorage.getItem("--tile-text-color")),
+                    backgroundColor: tileColor ?? JSON.parse(localStorage.getItem("--tile-background-color")),
+                    textColor: fontColor ?? JSON.parse(localStorage.getItem("--tile-text-color")),
                 }) : actions.tileUpdated(itemProps));
             }
         },

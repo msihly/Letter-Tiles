@@ -105,6 +105,16 @@
         &-purple { background-color: $purple-2 !important; }
     }
 
+    &.heart {
+        background-color: $white-3;
+
+        &::before {
+            content: $symbol-heart;
+            color: $red-2;
+            font-size: 1.6em;
+        }
+    }
+
     .erase-mode &:hover {
         &::before, &::after {
             content: "";

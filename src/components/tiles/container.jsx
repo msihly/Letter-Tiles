@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { shallowEqual, useDispatch, useSelector } from "react-redux";
 import * as actions from "../../store/actions";
 import { useDrop } from "react-dnd";
@@ -8,7 +8,10 @@ import * as Media from "../../media";
 
 const Container = ({ classes, boundingNode, hasElkoninBoxes, hasSnapToGrid, isEraseMode }) => {
     const dispatch = useDispatch();
+
     const tiles = useSelector(state => state.tiles, shallowEqual);
+
+    const [zIndex, setZIndex] = useState(1);
 
     const getClasses = ({ canDrop, isOver, hasElkoninBoxes, isEraseMode } = {}) => {
         let className = "container";
@@ -31,8 +34,11 @@ const Container = ({ classes, boundingNode, hasElkoninBoxes, hasSnapToGrid, isEr
             let top = tile ? (tile.top + delta.y) : (offset.y - bounds.top);
             if (hasSnapToGrid) [left, top] = snapToGrid(left, top);
 
-            dispatch(actions.tileUpdated({ ...item, left, top }));
-            return { left, top };
+            const higherZIndex = zIndex + 1;
+
+            dispatch(actions.tileUpdated({ ...item, left, top, zIndex: higherZIndex }));
+            setZIndex(higherZIndex);
+            return { left, top, zIndex: higherZIndex };
         }
     });
 

@@ -1,9 +1,14 @@
-### Check out the [Letter Tiles web application](https://msihly.github.io/letter-tiles), an educational tool for teachers and parents of children studying phonics.
+### Check out the [Letter Tiles web application](https://msihly.github.io/letter-tiles), an educational tool for teachers, students, and parents to practice early literacy and phonics.
 
 ---
 &nbsp;
 
 # Changelog
+## Version 0.2.1 &nbsp;-&nbsp; (2021-01-26)
+* Added layering of most recently dragged tile on top of other tiles via z-index
+* Added heart tile to grapheme tabs per request
+* Added description meta tag
+
 ## Version 0.2.0 &nbsp;-&nbsp; (2020-11-19)
 * Added `FloatingMenu` component
     * Circle buttons toggle settings or open settings modals
