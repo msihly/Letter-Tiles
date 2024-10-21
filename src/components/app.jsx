@@ -73,7 +73,7 @@ const App = () => {
                             <Media.PaintPaletteSVG />
                             { isColorSettingsOpen ? (
                                 <Modal id="color-settings" classes="color-settings" hasHeader>
-                                    <Tabs containerClasses="full-width" tabClasses="pad-ctn-1 a-center">
+                                    <Tabs containerClasses="full-width" tabClasses="a-center">
                                         <Tab label="Themes">
                                             <ThemeTiles handleChange={changeColor} />
                                         </Tab>
