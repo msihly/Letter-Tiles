@@ -1,29 +1,26 @@
 {
   "files": {
-    "main.css": "/letter-tiles/static/css/main.05a5c3db.chunk.css",
-    "main.js": "/letter-tiles/static/js/main.dd3ca75e.chunk.js",
-    "main.js.map": "/letter-tiles/static/js/main.dd3ca75e.chunk.js.map",
-    "runtime-main.js": "/letter-tiles/static/js/runtime-main.553c8552.js",
-    "runtime-main.js.map": "/letter-tiles/static/js/runtime-main.553c8552.js.map",
-    "static/js/2.a0a1b9d1.chunk.js": "/letter-tiles/static/js/2.a0a1b9d1.chunk.js",
-    "static/js/2.a0a1b9d1.chunk.js.map": "/letter-tiles/static/js/2.a0a1b9d1.chunk.js.map",
+    "main.css": "/letter-tiles/static/css/main.35d35715.css",
+    "main.js": "/letter-tiles/static/js/main.d8ff4a37.js",
+    "static/media/roboto-500.woff": "/letter-tiles/static/media/roboto-500.cea99d3e3e13a3a599a0.woff",
+    "static/media/roboto-700.woff": "/letter-tiles/static/media/roboto-700.2267169ee7270a22a963.woff",
+    "static/media/roboto-400.woff": "/letter-tiles/static/media/roboto-400.49ae34d4cc6b98c00c69.woff",
+    "static/media/roboto-500.woff2": "/letter-tiles/static/media/roboto-500.f5b74d7ffcdf85b9dd60.woff2",
+    "static/media/roboto-700.woff2": "/letter-tiles/static/media/roboto-700.c18ee39fb002ad58b6dc.woff2",
+    "static/media/roboto-400.woff2": "/letter-tiles/static/media/roboto-400.176f8f5bd5f02b3abfcf.woff2",
+    "static/media/paint-palette.svg": "/letter-tiles/static/media/paint-palette.991d8414f42d29bb713173ffd486f9f5.svg",
     "index.html": "/letter-tiles/index.html",
-    "precache-manifest.4f5eeab25262d3f0990b75025caa8905.js": "/letter-tiles/precache-manifest.4f5eeab25262d3f0990b75025caa8905.js",
-    "service-worker.js": "/letter-tiles/service-worker.js",
-    "static/css/main.05a5c3db.chunk.css.map": "/letter-tiles/static/css/main.05a5c3db.chunk.css.map",
-    "static/js/2.a0a1b9d1.chunk.js.LICENSE.txt": "/letter-tiles/static/js/2.a0a1b9d1.chunk.js.LICENSE.txt",
-    "static/media/elkonin-boxes.svg": "/letter-tiles/static/media/elkonin-boxes.d6c38e56.svg",
-    "static/media/index.scss": "/letter-tiles/static/media/roboto-700.adcde98f.woff",
-    "static/media/grid.svg": "/letter-tiles/static/media/grid.1415287f.svg",
-    "static/media/indented-arrow.svg": "/letter-tiles/static/media/indented-arrow.d4a2bae3.svg",
-    "static/media/paint-palette.svg": "/letter-tiles/static/media/paint-palette.12c7392d.svg",
-    "static/media/three-squares.svg": "/letter-tiles/static/media/three-squares.690d4501.svg",
-    "static/media/trashcan.svg": "/letter-tiles/static/media/trashcan.663bf4b6.svg"
+    "static/media/trashcan.svg": "/letter-tiles/static/media/trashcan.170f1f7bd427708b5644b18c42715556.svg",
+    "static/media/eraser.svg": "/letter-tiles/static/media/eraser.6b9279e65c6b6e187e29e2a7dece6550.svg",
+    "static/media/elkonin-boxes.svg": "/letter-tiles/static/media/elkonin-boxes.daabe66199df1235b10b32f6c7fc5321.svg",
+    "static/media/grid.svg": "/letter-tiles/static/media/grid.852905a0c7b2d2a7871a66b4c9c77029.svg",
+    "static/media/three-squares.svg": "/letter-tiles/static/media/three-squares.eebed29fd6b5e2454ccb7a42c3efafe9.svg",
+    "static/media/indented-arrow.svg": "/letter-tiles/static/media/indented-arrow.79da1ecbf0aea9eda95c503152793aff.svg",
+    "main.35d35715.css.map": "/letter-tiles/static/css/main.35d35715.css.map",
+    "main.d8ff4a37.js.map": "/letter-tiles/static/js/main.d8ff4a37.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.553c8552.js",
-    "static/js/2.a0a1b9d1.chunk.js",
-    "static/css/main.05a5c3db.chunk.css",
-    "static/js/main.dd3ca75e.chunk.js"
+    "static/css/main.35d35715.css",
+    "static/js/main.d8ff4a37.js"
   ]
 }
